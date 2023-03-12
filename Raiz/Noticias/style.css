@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgray;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav a {
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: cadetblue;
+    border-radius: 4px;
+}
